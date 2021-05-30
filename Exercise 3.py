@@ -1,6 +1,6 @@
 # Make a programme for guessing the number
 
-expected_number = 21
+expected_number = 93
 number_of_guesses = 1
 print("Guess number game\nNumber is guesses is limited to only 7 times")
 
@@ -18,3 +18,4 @@ while number_of_guesses <= 7:
     number_of_guesses += 1
 if number_of_guesses > 7:
     print("Game over!!!")
+    print("The correct answer was" + expected_number)
